@@ -4,13 +4,13 @@
 
 ## | **The To-Do List** |
 
-#### The To-Do List Project, initiated February 12th, 2019
+#### The To-Do List Project. Initiated February 12th, 2019. Updated February 13th, 2019.
 #### By Shawn Lunsford
 
 ----------
 
 ## Description
-A simple to-do list program created using C#.
+A simple to-do list program that allows users to add items, view the list, and clear the list. This is part of the Epicodus C# coursework, and was created using C#.
 
 ## Known Bugs
 
@@ -18,11 +18,26 @@ A simple to-do list program created using C#.
 
 ## Specifications
 
-TODO
+| Behavior | Input | Output |
+|----------|:-----:|:------:|
+| Item on list can be created | New Item | (Item Exists) |
+| Program returns description of item | New Item: "Walk dog" | "Walk dog" |
+| User can view list of items added | View | Return list |
+| List is returned numbered | View | Return numbered list |
+| Clear list option | Clear | List is emptied |
+| User can return to menu | Return | Main menu appears |
+| Program cycles through options of add, view, clear, return to menu | User answer to return to menu: Y | Return to menu |
 
 ## Setup and Use
 
-N/A
+#### Prerequisites
+* Must have a working browser and/or IDE
+* Must have basic computer use proficiency
+
+#### Open Locaally
+1. Navigate to [my repo](https://github.com/LondresRi/ToDoList-CSharp) at GitHub.com/LondresRi/ToDoList-CSharp
+2. Clone the repository using the [HTTPS URL](https://github.com/LondresRi/ToDoList-Csarp) or download the zip file.
+3. Open the Program.exe file, or alternately use an IDE to view the code.
 
 ## Built With
 
@@ -30,6 +45,7 @@ N/A
 * Atom (IDE)
 * C#
 * .NET Core 2.0
+* GitBash
 
 ## Contributors
 
