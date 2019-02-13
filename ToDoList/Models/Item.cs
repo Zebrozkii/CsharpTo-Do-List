@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace List
+namespace ToDoList.Models
 {
 
   public class Item

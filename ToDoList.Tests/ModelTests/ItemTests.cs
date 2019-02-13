@@ -1,11 +1,10 @@
-using System;
-using System.Collection.Generic;
-using List;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ToDoList.Models;
 
-namespace ListTest
+namespace ToDoList.Tests
 {
   [TestClass]
-  public class ItemTests
+  public class ItemTest
   {
     // code
   }
