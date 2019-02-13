@@ -39,7 +39,7 @@ namespace ToDoList
         Console.WriteLine("Clear your list?");
         string userClearList = Console.ReadLine().ToUpper();
 
-        if ((userClearList == "YES") || (userClearList == "Y"))
+        if ((userClearList == "YES") || (userClearList == "Yc"))
         {
           Item.ClearAll();
           ListFunctions();
