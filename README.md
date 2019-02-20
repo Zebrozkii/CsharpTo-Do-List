@@ -1,11 +1,11 @@
-| <img src="https://github.com/identicons/londresri.png" width=100 alt="GitHub identicon for author LondresRi"> |
-|:-----:|
-| [**LondresRi**](https://github.com/LondresRi )|
+| <img src="https://github.com/identicons/londresri.png" width=100 alt="GitHub identicon for author LondresRi"> | <img src="https://github.com/identicons/zebrozkii.png" width=100 alt="GitHub identicon for author Zebrozkii"> |
+|:-----:|:-----:
+| [**LondresRi**](https://github.com/LondresRi)| [**Zebrozkii**](https://github.com/Zebrozkii)|
 
-## | **The To-Do List** |
+## | **To-Do List Project** |
 
-#### The To-Do List Project. Initiated February 12th, 2019. Updated February 13th, 2019.
-#### By Shawn Lunsford
+#### By Shawn Lunsford and Jimmy Zebroski
+###### The To-Do List Project. Initiated February 12th, 2019. Updated February 13th, 2019.
 
 ----------
 
@@ -31,13 +31,26 @@ A simple to-do list program that allows users to add items, view the list, and c
 ## Setup and Use
 
 #### Prerequisites
-* Must have a working browser and/or IDE
-* Must have basic computer use proficiency
+* .NET Core 1.1 SDK or higher
+* .NET Core Runtime 1.1 or higher
+* [Mono](https://www.mono-project.com/)
 
-#### Open Locaally
-1. Navigate to [my repo](https://github.com/LondresRi/ToDoList-CSharp) at GitHub.com/LondresRi/ToDoList-CSharp
-2. Clone the repository using the [HTTPS URL](https://github.com/LondresRi/ToDoList-Csarp) or download the zip file.
-3. Open the Program.exe file, or alternately use an IDE to view the code.
+#### Download Repo
+1. Download required software: .NET Core SDK, .NET Core Runtime, Mono
+2. Clone [this repository](https://github.com/LondresRi/ToDoList.Solution): _$ git clone (repo HTTPS)_
+
+#### Open Locally
+1. Navigate to the working directory: _$ cd ToDoList.Solution_
+2. Use your preferred IDE or editor to edit the project
+3. Open the Program.exe file or use _$ mono Program.exe_ to run application
+
+#### Compile Locally
+1. Navigate to the project directory: _$ cd ToDoList.Solution/ToDoList_
+2. Execute _$ mcs Program.cs Models/Item.cs_ to compile new Program.exe file
+
+#### Test Locally
+1. Navigate to the working directory: _$ cd ToDoList.Solution/ToDoList.Tests_
+2. Execute _$ dotnet tests_ to run application tests
 
 ## Built With
 
@@ -52,14 +65,15 @@ A simple to-do list program that allows users to add items, view the list, and c
 | Author | GitHub | Email |
 |--------|:------:|:-----:|
 | Shawn Lunsford | [LondresRi](https://github.com/LondresRi) |  [lunsford.sk@gmail.com](mailto:lunsford.sk@gmail.com) |
+| Jimmy Zebroski | [Zebrozkii](https://github.com/Zebrozkii) | [zebrozkii@gmail.com](mailto:zebrozkii@gmail.com) |
 
 ## Support and contact details
 
-If you have any feedback or concerns, please contact me at [lunsford.sk@gmail.com](mailto:lunsford.sk@gmail.com).
+If you have any feedback or concerns, please contact me one of the contributors.
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2019 Shawn Lunsford. All Rights Reserved.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2019 Shawn Lunsford and Jimmy Zebroski. All Rights Reserved.
 ```
 MIT License
 
