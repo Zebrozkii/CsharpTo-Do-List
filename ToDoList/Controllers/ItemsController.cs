@@ -6,7 +6,6 @@ namespace ToDoList.Controllers
 {
   public class ItemsController : Controller
   {
-
     [HttpGet("/items")]
     public ActionResult Index()
     {
@@ -20,6 +19,13 @@ namespace ToDoList.Controllers
       return View();
     }
 
+    [HttpGet("/items/{id}")]
+    public ActionResult Show(int id)
+    {
+      Item item = Item.Find(id);
+      return View(item);
+    }
+
     [HttpPost("/items")]
     public ActionResult Create(string description)
     {
@@ -27,5 +33,23 @@ namespace ToDoList.Controllers
       return RedirectToAction("Index");
     }
 
+    [HttpPost("/items/delete")]
+    public ActionResult DeleteAll()
+    {
+      Item.ClearAll();
+      return View();
+    }
+
+    [HttpGet("/items/new")]
+    public ActionResult CreateForm()
+    {
+      return View();
+    }
+
+    [HttpGet("/items/new")]
+    public ActionResult New()
+    {
+      return View();
+    }
   }
 }
